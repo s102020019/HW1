@@ -19,7 +19,7 @@
 				val = pixptr[1] * b;
 				if (val > 255){ pixptr[1] = 255; }
 				else{ pixptr[1] = pixptr[1] * b; }
-                        //調整紅色
+                //調整紅色
 				val = pixptr[2] * c;
 				if (val > 255){ pixptr[2] = 255; }
 				else{ pixptr[2] = pixptr[2] * c; }
