@@ -81,6 +81,14 @@ for (int i = 0; i<image.rows; i++){
 RGB是指R、G或B分別的亮度，New經過對比後的結果。公式中128只是因為方便，取0~255的中間值，實際上是整張圖的平均亮度。Contrast是對比度，通常值介於-1~1之間，取Contrast=0.5、RGB=156和100為例，156跟100和128的差值取絕對值都是28，呈上1.5斜率，對應到新的值是170和86，讓新的值之間的差距和舊的值之間差距變大，達到明亮處和陰暗處反差變大的效果
 
 ## Disparity result
-* Q1 Result*
+* Q1 Result<br>
+<img src="Q1濾鏡/image/暖色調/B08G10/B08G10R1075.png" >
+* Q3 Result<br>
+<img src="Q3_電影感/image/B11G105R08BRm5CT調整/BRm5CT01.png" >
 
 ## Reference
+1.http://www.2cto.com/kf/201311/256934.html
+2.http://photoblog.hk/wordpress/105136/%E5%A6%82%E4%BD%95%E5%9C%A8-ps-%E4%BB%A5%E6%9B%B2%E7%B7%9A-curves-%E6%8B%89%E5%87%BA%E9%9B%BB%E5%BD%B1%E6%84%9F%E8%89%B2%E8%AA%BF
+
+
+
